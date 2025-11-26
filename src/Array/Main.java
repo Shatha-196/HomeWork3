@@ -11,6 +11,9 @@ public class Main {
      System.out.println("enter"+number.length+"numbers");
      for(int i=0; i<=number.length;i++)
          number[i]=s.nextInt();
-     arr.travers(number);1
+     arr.travers(number);
+     int[]numbers={1,2,3,4,5};
+     arr.delete(numbers,2);
+     arr.update(numbers,2,5);
     }
 }

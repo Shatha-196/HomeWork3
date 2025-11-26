@@ -9,4 +9,18 @@ public class Arrayss {
         for( int i=a.length;i>=0;i--)
             System.out.println("indexes:"+a[i]);
     }
+    public void update(int []a,int index,int value)
+    {
+        if(index<0 || index>=a.length)
+         System.out.print("index not found");
+        else
+            a[index]=value;
+    }
+    public void delete(int []a,int index)
+    {
+        if(index<0 || index>=a.length)
+            System.out.print("index not found");
+        else
+            a[index]=0;
+    }
 }
