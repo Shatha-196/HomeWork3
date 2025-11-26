@@ -23,4 +23,10 @@ public class Arrayss {
         else
             a[index]=0;
     }
+    public void shiftleftd(int[]a,int index){
+        //a.length-1 عشان ما ياخذ من الي بعده الي هومش موجود اصلا
+        for(int i=index;i<a.length-1;i++)
+            a[i]=a[i+1];
+        a[a.length-1]= Integer.MIN_VALUE;
+    }
 }

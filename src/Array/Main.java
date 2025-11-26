@@ -13,7 +13,8 @@ public class Main {
          number[i]=s.nextInt();
      arr.travers(number);
      int[]numbers={1,2,3,4,5};
-     arr.delete(numbers,2);
-     arr.update(numbers,2,5);
+     //arr.delete(numbers,2);
+    //arr.update(numbers,2,7);
+        arr.shiftleftd(numbers,2);
     }
 }
