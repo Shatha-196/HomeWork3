@@ -16,5 +16,6 @@ public class Main {
      //arr.delete(numbers,2);
     //arr.update(numbers,2,7);
         arr.shiftleftd(numbers,2);
+       System.out.println( arr.linersearch(numbers,3));
     }
 }

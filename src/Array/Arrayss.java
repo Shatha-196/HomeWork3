@@ -29,4 +29,13 @@ public class Arrayss {
             a[i]=a[i+1];
         a[a.length-1]= Integer.MIN_VALUE;
     }
+    public int linersearch(int[]a,int n){
+        for(int i=0;i<=a.length;i++){
+            if(n == a[i])
+                return i;
+        }
+
+
+        return -1;
+    }
 }
