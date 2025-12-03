@@ -17,5 +17,7 @@ public class Main {
     //arr.update(numbers,2,7);
         arr.shiftleftd(numbers,2);
        System.out.println( arr.linersearch(numbers,3));
+       arr.binarysearch(numbers,5,0,numbers.length-1);
+       arr.binarysearch(numbers,5);
     }
 }

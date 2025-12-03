@@ -38,4 +38,35 @@ public class Arrayss {
 
         return -1;
     }
+
+    public int binarysearch(int [] a,int s,int findex,int lindex){
+        boolean fn;
+
+        while(findex<=lindex){
+             int mid=(findex=lindex)/2;
+             if(s==a[mid])
+                 return mid;
+             if(s>a[mid])
+                 findex=mid+1;
+             if(s<a[mid])
+                 lindex=mid-1;
+         }
+        return 0;
+    }
+    public int binarysearch(int [] a,int s){
+        boolean fn;
+        int findex=0;
+        int lindex=a.length-1;
+        while(findex<=lindex){
+            int mid=(findex=lindex)/2;
+            if(s==a[mid])
+                return mid;
+            if(s>a[mid])
+                findex=mid+1;
+            if(s<a[mid])
+                lindex=mid-1;
+        }
+        return 0;
+    }
+
 }
