@@ -1,5 +1,5 @@
 package Queue;
-import S
+import SinglyLinkedList;
 
 public class LinkedQueue<E> implements Queue<E> {
     singlyLinkedList<E> list=new singlyLinkedList<E>();
